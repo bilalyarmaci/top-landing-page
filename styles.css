@@ -123,3 +123,8 @@ a {
     border-radius: 10px;
     padding: .5rem;
 }
+
+/* Attributions */
+.attributions{
+    text-align: center;
+}
