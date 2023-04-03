@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
 
+*{box-sizing: border-box;}
+
 body,
 h1,
 p {
@@ -25,20 +27,20 @@ a {
     margin: auto;
 }
 
-/* Hero Section */
-.hero {
-    background-color: #1f2937;
-    padding: 1rem;
-}
-
-.hero-primary-text {
+.primary-text {
     color: #f9faf8;
     margin: 0;
 }
 
-.hero-secondary-text {
+.secondary-text {
     color: rgba(229, 231, 235, .75);
     font-size: 18px;
+}
+
+/*** Hero Section ***/
+.hero {
+    background-color: #1f2937;
+    padding: 1rem;
 }
 
 .header-logo {
@@ -86,4 +88,38 @@ a {
     margin-top: 1rem;
     border: 0;
     border-radius: 10px;
+}
+
+/*** Information Section ***/
+.information{
+    padding-block: 3rem;
+    text-align: center;
+}
+.info-container{
+    max-width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.information h2{
+    padding: 0;
+    margin: 0 0 3rem 0;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.info-item p{
+    max-width: min(100%,150px);
+    margin-inline: auto;
+}
+
+.info-item img{
+    max-width: min(100%,150px);
+    margin-inline: auto;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    padding: .5rem;
 }
