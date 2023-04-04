@@ -135,6 +135,27 @@ a {
     padding: .5rem;
 }
 
+
+/*** Quote Section ***/
+#quote{
+    padding: 3rem;
+    background-color: #e5e7eb;
+}
+
+.quote-text{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.quote-author{
+    text-align: right;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
 /* Attributions */
 .attributions {
     text-align: center;
