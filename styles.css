@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -141,12 +141,12 @@ a {
 
 
 /*** Quote Section ***/
-#quote{
+#quote {
     padding: 3rem;
     background-color: #e5e7eb;
 }
 
-.quote-text{
+.quote-text {
     color: #1f2937;
     font-size: 36px;
     font-weight: 300;
@@ -154,10 +154,42 @@ a {
     margin-bottom: 1rem;
 }
 
-.quote-author{
+.quote-author {
     text-align: right;
     margin: 0;
     font-size: 1.5rem;
+}
+
+/*** CTA Section ***/
+#cta {
+    padding: 5rem;
+}
+
+.cta-container {
+    padding: 3rem 7rem;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.cta-text h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.cta-text {
+    flex: 15 1 auto;
+}
+
+.btn-cta {
+    margin-top: 0;
+    border: 2px solid white;
+    flex: 1 1 136px;
 }
 
 /* Attributions */
