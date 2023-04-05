@@ -192,7 +192,16 @@ a {
     flex: 1 1 136px;
 }
 
+/*** Footer Section ***/
+#footer {
+    background-color: #1f2937;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: .5rem;
+}
+
 /* Attributions */
 .attributions {
-    text-align: center;
+    margin-top: 1.5rem;
 }
